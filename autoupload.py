@@ -7,5 +7,3 @@ print(o2.read())
 
 o3 = os.popen('git push')
 print(o3.read())
-time.sleep(5)
-o3.write('githubMIMA666!')
