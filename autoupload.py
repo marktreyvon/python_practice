@@ -7,5 +7,5 @@ o2 = os.popen('git commit -m ' + inp)
 print(o2.read())
 
 o3 = os.popen('git push')
-# o3.write('githubMIMA666!')
+o3.write('githubMIMA666!')
 print(o3.read())
